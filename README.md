@@ -1,6 +1,30 @@
 # 362Project
 Project for 362
 
+## Prerequisite
+1. Download virtualenv
+```
+sudo pip install virtualenv
+```
+
+2. Download pip
+Instructions:
+```
+https://pip.pypa.io/en/stable/installing/
+```
+
+3. Download Flask
+```
+sudo pip install Flask
+```
+
+4. Download MongoDB (not needed as of now, since Shelley hasn't integrated it yet)
+```
+https://docs.mongodb.com/getting-started/shell/installation/
+```
+
+## Running the app
+
 Step 1:
 ```
 . venv/bin/activate
