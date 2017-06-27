@@ -101,7 +101,7 @@ content.gallery article{
   margin-bottom: 25px;
   height: 300px;
   overflow-y: hidden;
-
+  overflow-x: hidden;
   margin-right: 25px;
 }
 
@@ -115,7 +115,7 @@ content.single-image article{
   width: 100%;
   margin-bottom: 25px;
   overflow-y: hidden;
-
+  overflow-x: hidden;
   margin-right: 25px;
 }
 
@@ -155,7 +155,7 @@ form input[type='text']:focus{
 
   content.single-image article img{
       width: 100%;
-      border: 10px solid #000;
+      border: 1px solid #efefef;
   }
 }
 
@@ -164,6 +164,6 @@ form input[type='text']:focus{
 
   content.single-image article img{
     width: 100%;
-    border: 10px solid lightblue;
+    border: 1px solid #efefef;
   }
 }

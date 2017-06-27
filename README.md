@@ -8,15 +8,10 @@ Step 1:
 
 Step 2:
 ```
-pip install flask
-```
-
-Step 3:
-```
 export FLASK_APP=server.py
 ```
 
-Step 4:
+Step 3:
 ```
 flask run
 ```
