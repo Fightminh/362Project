@@ -1,0 +1,75 @@
+body, html{
+    background-color: #eeeeee;
+}
+
+.textbox{
+  width:800px;
+  height:250px;
+  background-color:#fff;
+  margin:0 auto;
+
+  padding: 24px;
+}
+
+.textbox span {
+    position:relative;
+     white-space:pre;
+ }
+
+.textbox > span.marked::after {
+   content: "";
+   position:absolute;
+   background-color: #333;
+   height:100%;
+   min-height: 16px;
+   width:2px;
+   top:0;
+   margin-right:2px;
+   animation: blinker 1s linear infinite;
+}
+
+.droppable{
+  position: relative;
+  cursor:pointer;
+}
+
+
+text{
+display: inline;
+}
+
+.tag{
+    position: relative;
+    margin: 10px;
+    padding: 5px 10px;
+    line-height: 2;
+}
+
+.tag > text{
+  z-index: 1;
+  color:#fff;
+  position: relative;
+}
+
+.tag.marked::after{
+    margin-left: 12px;
+}
+
+.tag::before{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    background-color: red;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    top: 0;
+    border-radius: 3px;
+}
+
+
+
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
