@@ -46,7 +46,8 @@ header .profile-picture{
   right: 25px;
   border-radius: 100%;
   top: 16px;
-  background-color: #fafafa;
+  background-image: url("https://scontent-sjc2-1.cdninstagram.com/t51.2885-19/s150x150/18513566_730880697082959_7265157525891186688_a.jpg");
+  background-size: contain;
   border: 1px solid #efefef;
   cursor: pointer;
 }
