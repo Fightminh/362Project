@@ -58,3 +58,5 @@ Remember to click the 4th photo only.
 * Integrate Instagram API calls
 * Integrate MongoDB
 * Integrate Drag and Drop functionality
+* 'My Collectags' page
+* Navigation page
