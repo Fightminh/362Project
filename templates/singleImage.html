@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}"></link>
+  </head>
+  <body>
+    <header>
+      <div class='center'>
+        <div id='logo' class='logo'>#collectags</div>
+          <div id='profile' class='profile-picture'></div>
+      </div>
+    </header>
+
+    <content class='single-image'>
+      <div class='center'>
+        <article id='image-4' class='image'>
+          <img
+          alt='cat' src='https://scontent-sjc2-1.cdninstagram.com/t51.2885-15/s1080x1080/e35/19228923_331218380644465_2055408551425212416_n.jpg'>
+          <form class='image-actions'>
+            <input placeholder='Leave a comment' type='text'>
+            <button>Send</button>
+          </form>
+        </article>
+      </div>
+    </content>
+  </body>
+</html>
