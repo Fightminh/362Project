@@ -2,15 +2,15 @@
 Project for 362
 
 ## Prerequisite
-1. Download virtualenv
-```
-sudo pip install virtualenv
-```
-
-2. Download pip
+1. Download pip
 Instructions:
 ```
 https://pip.pypa.io/en/stable/installing/
+```
+
+2. Download virtualenv
+```
+sudo pip install virtualenv
 ```
 
 3. Download Flask
