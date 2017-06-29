@@ -13,34 +13,33 @@ https://pip.pypa.io/en/stable/installing/
 sudo pip install virtualenv
 ```
 
-3. Download Flask
+3. Install all dependencies
 ```
-sudo pip install Flask
+sudo pip install -r py_deps.txt
 ```
 
-4. Download MongoDB (not needed as of now, since Shelley hasn't integrated it yet)
+4. Create a `.env` file at your root with the following values:
 ```
-https://docs.mongodb.com/getting-started/shell/installation/
+CLIENT_ID=(your instagram client id)
+CLIENT_SECRET=(your instagram client secret id)
+REDIRECT_URI=(your instagram redirect url)
+MONGODB_CONNECTION_URI=(your mongodb connection url)
+SECRET_KEY=(random secret key)
 ```
 
 ## Running the app
 
 Step 1:
 ```
-. venv/bin/activate
+. env/bin/activate
 ```
 
 Step 2:
 ```
-export FLASK_APP=server.py
+python index.py
 ```
 
 Step 3:
-```
-flask run
-```
-
-Step 4:
 
 Index page:
 ```

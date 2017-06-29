@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block body %}
+  <div class='adder-bak'>
+    <div class='adder'>
+      <div class='close-adder'> Close </div>
+      <h3> Add / Modify </h3>
+      <div class='adder-old' id='tagNameId'>#tag</div>
+      <div class='adder-new'>
+        <label>Add tag name</label>
+        <input  id='tagName' type='text'>
+      </div>
+      <label>Add tags seperated by comma</label>
+      <input id='tagList' type='text'>
+      <button class='add-new-tag adder-new'>Add</button>
+      <button class='update-tag adder-old'>Update</button>
+    </div>
+  </div>
+  <content class='gallery'>
+    <div class='center'>
+      <div class='gallery-header'>
+        <h2>Your Latest Posts</h2>
+        <div class='presentTags'></div>
+        <button class='open-adder'>Create new CollectTag</button>
+      </div>
+      <div class='images'>
+        {% for media in data %}
+          <a href='/comment?id={{media.id}}&src={{media.images['standard_resolution'].url}}'>
+            <article class='image'>
+              <img src="{{media.images['standard_resolution'].url}}">
+            </article>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </content>
+{% endblock %}

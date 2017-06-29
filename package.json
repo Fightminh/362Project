@@ -1,0 +1,19 @@
+{
+  "name": "collectags",
+  "version": "1.0.0",
+  "description": "Project for 362",
+  "main": "server.py",
+  "scripts": {
+    "start": "python index.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fightminh/362Project.git"
+  },
+  "author": "Shelley Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fightminh/362Project/issues"
+  },
+  "homepage": "https://github.com/Fightminh/362Project#readme"
+}
