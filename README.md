@@ -51,7 +51,12 @@ Index page:
 127.0.0.1:5000
 ```
 
+To create a Collectag:
+```
+Select 'Add new Collectag' on the index page.
+```
+
 To comment:
 ```
-Click on an image, drag and drop if needed.
+Click on an image, drag and drop your desired Collectag.
 ````
