@@ -18,7 +18,12 @@ sudo pip install virtualenv
 sudo pip install -r py_deps.txt
 ```
 
-4. Create a `.env` file at your root with the following values:
+4. Register for Instagram Developer. Click on `Manage Clients` and add any other Instagram account as needed.
+```
+https://www.instagram.com/developer/clients/manage/
+```
+
+5. Create a `.env` file at your root with the following values:
 ```
 CLIENT_ID=(your instagram client id)
 CLIENT_SECRET=(your instagram client secret id)
@@ -48,14 +53,5 @@ Index page:
 
 To comment:
 ```
-127.0.0.1:5000/add-comment
+Click on an image, drag and drop if needed.
 ````
-Remember to click the 4th photo only.
-
-
-## TODO:
-* Integrate Instagram API calls
-* Integrate MongoDB
-* Integrate Drag and Drop functionality
-* 'My Collectags' page
-* Navigation page
