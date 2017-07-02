@@ -40,11 +40,14 @@ Step 1:
 ```
 
 Step 2:
+Open a new tab type `mongod` on the terminal.
+
+Step 3:
 ```
 python index.py
 ```
 
-Step 3:
+Step 4:
 
 Index page:
 ```
