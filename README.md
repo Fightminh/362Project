@@ -49,7 +49,7 @@ python index.py
 
 Step 4:
 
-Index page:
+Go to this URL on your Google Chrome browser:
 ```
 127.0.0.1:5000
 ```
